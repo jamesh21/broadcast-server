@@ -1,0 +1,28 @@
+{
+  "name": "broadcast-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamesh21/broadcast-server.git"
+  },
+  "author": "James Ho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jamesh21/broadcast-server/issues"
+  },
+  "homepage": "https://github.com/jamesh21/broadcast-server#readme",
+  "dependencies": {
+    "socket.io": "^4.8.1",
+    "socket.io-client": "^4.8.1",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
